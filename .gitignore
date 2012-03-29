@@ -5,4 +5,5 @@
 **/obj
 *.suo
 *.vsmdi
-
+*.cache
+*FileListAbsolute.txt
