@@ -1,0 +1,8 @@
+*.snk
+*.dll
+*.pdb
+**/bin
+**/obj
+*.suo
+*.vsmdi
+
