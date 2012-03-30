@@ -12,6 +12,6 @@
 	<tags>hashing bcrypt pbkdf2</tags>
   </metadata> 
   <files>
-    <file src="..\..\Zetetic.Security\bin\Release\Zetetic.Security.dll" target="lib" />
+    <file src="..\..\Zetetic.Security\Zetetic.Security\bin\Release\Zetetic.Security.dll" target="lib" />
   </files>
 </package>
