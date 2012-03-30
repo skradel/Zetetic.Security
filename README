@@ -1,9 +1,13 @@
-Zetetic.Security is a .NET assembly that wraps both the standard .NET Rfc2898DeriveBytes class, as well as a C# port of bcrypt, in the System.Security.Cryptography.KeyedHashAlgorithm type to make it compatible with SqlMembershipProvider and other framework hash functions.
+Zetetic.Security is a .NET assembly that wraps both the standard .NET Rfc2898DeriveBytes class, 
+as well as a C# port of bcrypt, in the System.Security.Cryptography.KeyedHashAlgorithm type to 
+make it compatible with SqlMembershipProvider and other framework hash functions.
 
 More information:
 <http://zetetic.net/blog/2012/3/29/strong-password-hashing-for-aspnet.html>
 
-This work incorporates BCrypt.net <http://code.google.com/p/bcryptnet/> subject to the following license:
+This work incorporates BCrypt.net <http://code.google.com/p/bcryptnet/> subject to the 
+following license:
+
 // Copyright (c) 2006 Damien Miller <djm@mindrot.org>
 // Copyright (c) 2007 Derek Slager
 //
