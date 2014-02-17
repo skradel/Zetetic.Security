@@ -11,6 +11,8 @@ namespace Zetetic.Security
 
         private System.IO.MemoryStream _ms;
 
+        protected int _logRounds = 10;
+
         public BCryptHash()
         {
             this.Key = new byte[16];
@@ -45,7 +47,7 @@ namespace Zetetic.Security
 
             _ms = null;
 
-            return new BCryptRaw().CryptRaw(arr, this.Key, 10);
+            return new BCryptRaw().CryptRaw(arr, this.Key, _logRounds);
         }
 
         public override void Initialize()
@@ -56,7 +58,7 @@ namespace Zetetic.Security
 
     internal class BCryptRaw : BCrypt
     {
-        public byte[] CryptRaw(byte[] password, byte[] salt, int logRounds)
+        public new byte[] CryptRaw(byte[] password, byte[] salt, int logRounds)
         {
             return base.CryptRaw(password, salt, logRounds);
         }

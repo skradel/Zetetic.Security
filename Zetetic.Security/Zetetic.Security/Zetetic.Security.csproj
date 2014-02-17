@@ -44,6 +44,15 @@
   <ItemGroup>
     <Compile Include="BCrypt.cs" />
     <Compile Include="BCryptHash.cs" />
+    <Compile Include="BCryptHash12.cs" />
+    <Compile Include="BCryptHash14.cs" />
+    <Compile Include="BCryptHash16.cs" />
+    <Compile Include="BCryptHash11.cs" />
+    <Compile Include="BCryptHash13.cs" />
+    <Compile Include="BCryptHash15.cs" />
+    <Compile Include="Pbkdf2Hash256K.cs" />
+    <Compile Include="Pbkdf2Hash128K.cs" />
+    <Compile Include="Pbkdf2Hash64K.cs" />
     <Compile Include="Pbkdf2Hash.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

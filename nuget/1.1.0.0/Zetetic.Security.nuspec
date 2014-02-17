@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<package> 
+  <metadata> 
+    <id>Zetetic.Security</id> 
+    <version>1.1.0.0</version> 
+    <authors>Zetetic LLC</authors>
+    <description>Secure password HashAlgorithm implementations including bcrypt (from BCrypt.net) and PBKDF2 suitable for use with SqlMembershipProvider</description> 
+    <language>en-US</language>
+    <licenseUrl>https://github.com/skradel/Zetetic.Security/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/skradel/Zetetic.Security</projectUrl>
+	<iconUrl>http://zetetic.net/images/zetetic-100x100.png</iconUrl>
+	<tags>hashing bcrypt pbkdf2</tags>
+  </metadata> 
+  <files>
+    <file src="..\..\Zetetic.Security\Zetetic.Security\bin\Release\Zetetic.Security.dll" target="lib" />
+  </files>
+</package>
